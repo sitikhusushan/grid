@@ -1,0 +1,38 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  background-image: url("image/inflicted.png");
+  color: aliceblue;
+}
+
+.layout .left {
+  background-image: url("image/inflicted.png");
+}
+
+.right {
+  background-image: url("image/tiny_grid.png");
+}
+
+.guide {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.right {
+  background-image: url("image/tiny_grid.png");
+}
+
+.middle {
+  background-image: url("image/tiny_grid.png");
+}
+
+.bugs {
+  background-image: url("image/tiny_grid.png");
+}
+
+footer {
+  background-image: url("image/inflicted.png");
+}
