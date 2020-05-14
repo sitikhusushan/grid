@@ -55,18 +55,13 @@ img {
 .balance h2 {
   padding-top: 60px;
 }
+/* .header ul {} */
 
-.news::before {
-  content: "New!";
-  background-color: green;
-  position: absolute;
-  top: -12px;
-  left: -12px;
-  padding: 6px 6px;
-  display: inline-block;
-  color: ivory;
-  transform: rotate(-20deg);
-}
+/* 
+.header .container {
+  margin: 0px;
+  padding: 0px;
+} */
 
 .header ul {
   list-style: none;
@@ -89,12 +84,11 @@ a {
 }
 
 .social span p {
-  background-color: lightblue;
+  background-color: blue;
 }
 
 .social {
   float: left;
-  margin-top: 20px;
   /* position: absolute;
   top: 50%;
   bottom: 50%; */
@@ -102,7 +96,6 @@ a {
 
 .social2 {
   float: right;
-  margin-top: 20px;
 }
 
 .header li:hover {
@@ -163,7 +156,6 @@ footer {
 }
 
 .news {
-  position: relative;
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-gap: 20px;
@@ -191,7 +183,6 @@ h2 {
   margin: 0px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 20px;
 }
 
 p {

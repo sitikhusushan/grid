@@ -57,6 +57,7 @@ img {
 }
 
 .news::before {
+  position: relative;
   content: "New!";
   background-color: green;
   position: absolute;
@@ -163,7 +164,6 @@ footer {
 }
 
 .news {
-  position: relative;
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-gap: 20px;
@@ -191,7 +191,6 @@ h2 {
   margin: 0px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 20px;
 }
 
 p {
