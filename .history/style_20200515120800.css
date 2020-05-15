@@ -31,7 +31,7 @@ img {
 .social p,
 .social2 p {
   border-radius: 5px;
-  /* border: 1px solid; */
+  border: salmon 1px solid;
   background-color: whitesmoke;
 }
 
@@ -85,16 +85,16 @@ a {
 }
 
 .social span p {
-  background-color: rgba(35, 89, 236, 0.979);
+  background-color: lightblue;
 }
 
-/* .social {
+.social {
   float: left;
   margin-top: 20px;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
-  bottom: 50%;
-} */
+  bottom: 50%; */
+}
 
 .social2 {
   float: right;
